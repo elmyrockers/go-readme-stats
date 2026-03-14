@@ -3,6 +3,7 @@
 <div align="center">
 	<img src="/coding-passion.webp" alt="Coding Passion" align="center" />
 </div>
+<br><br>
 
 Personal Go tool using GitHub API to track my coding stats.
 
