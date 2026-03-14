@@ -1,6 +1,8 @@
 # go-readme-stats
 
-<img src="/coding-passion.webp" alt="Coding Passion" align="center" />
+<div align="center">
+	<img src="/coding-passion.webp" alt="Coding Passion" align="center" />
+</div>
 
 Personal Go tool using GitHub API to track my coding stats.
 
