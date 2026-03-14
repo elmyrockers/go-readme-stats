@@ -1,5 +1,6 @@
 # go-readme-stats
-![Coding Passion](/coding-passion.webp)
+
+<img src="/coding-passion.webp" alt="Coding Passion" align="center" />
 
 Personal Go tool using GitHub API to track my coding stats.
 
