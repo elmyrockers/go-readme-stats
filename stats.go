@@ -4,26 +4,12 @@ import (
 	"os"
 	"context"
 	"fmt"
-	"encoding/json"
 	"slices"
 	// "github.com/davecgh/go-spew/spew"
-
 
 	"github.com/google/go-github/v60/github"
 )
 
-
-
-
-// For debugging
-func dump(data interface{}) {
-	b, err := json.MarshalIndent(data, "", "    ")
-	if err != nil {
-		fmt.Println("Error printing data:", err)
-		return
-	}
-	fmt.Println(string(b))
-}
 
 
 
@@ -44,13 +30,19 @@ func newStats() *stats {
 	return &stats{ client: client }
 }
 
-func ( s *stats ) most_used_languages( count int ) []Language  {
+func ( s *stats ) get_repos() []*github.Repository {
 	// Get list of repos
 		ctx := context.Background()
 		repos, _, err := s.client.Repositories.List(ctx, "", nil)
 		if err != nil {
 			fmt.Println( err )
 		}
+	return repos
+}
+
+func ( s *stats ) most_used_languages( count int ) []Language  {
+	repos := s.get_repos()
+	ctx := context.Background()
 
 	// Get list of languages with their size
 		languages := map[string]int{}
@@ -80,7 +72,7 @@ func ( s *stats ) most_used_languages( count int ) []Language  {
 			return b.Bytes - a.Bytes
 		})
 
-	// Get Most Used of Languages (Top 10)
+	// Get Most Used of Languages
 		sortedLanguages = sortedLanguages[: count ]
 	return sortedLanguages
 }
