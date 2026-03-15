@@ -1,0 +1,85 @@
+package main
+
+import (
+	"os"
+	"context"
+	"fmt"
+	"encoding/json"
+	"slices"
+	// "net/http"
+	// "github.com/davecgh/go-spew/spew"
+
+
+	"github.com/google/go-github/v60/github"
+	// "golang.org/x/oauth2"
+)
+
+
+
+
+// For debugging
+func dump(data interface{}) {
+	b, err := json.MarshalIndent(data, "", "    ")
+	if err != nil {
+		fmt.Println("Error printing data:", err)
+		return
+	}
+	fmt.Println(string(b))
+}
+
+
+
+//------------------------------------------------------------------------------------------------------
+type Language struct {
+	Name  string
+	Bytes int
+	Percentage float64
+}
+
+type stats struct {}
+
+
+
+func ( s *stats ) most_used_languages( count int ) []Language  {
+	token := os.Getenv( "GITHUB_TOKEN" )
+	client := github.NewClient(nil).WithAuthToken( token )
+
+	// Get list of repos
+		ctx := context.Background()
+		repos, _, err := client.Repositories.List(ctx, "", nil)
+		if err != nil {
+			fmt.Println( err )
+		}
+
+	// Get list of languages with their size
+		languages := map[string]int{}
+		totalBytes := 0
+		for _, repo := range repos {
+			if repo.GetFork() { continue } //skip fork
+
+			owner := repo.GetOwner().GetLogin()
+			name := repo.GetName()
+			langData, _, _ := client.Repositories.ListLanguages(ctx, owner, name)
+			for lang, bytes := range langData {
+				languages[ lang ] += bytes
+				totalBytes += bytes
+			}
+		}
+
+	// Sort languages with their size (from biggest to smallest)
+		sortedLanguages := []Language{}
+		for name, bytes := range languages {
+			sortedLanguages = append( sortedLanguages,Language{
+				Name: name,
+				Bytes: bytes,
+				Percentage: (float64(bytes) / float64(totalBytes)) * 100,
+			})
+		}
+		slices.SortFunc( sortedLanguages, func(a, b Language) int {
+			return b.Bytes - a.Bytes
+		})
+
+	// Get Most Used of Languages (Top 10)
+		sortedLanguages = sortedLanguages[: count ]
+	return sortedLanguages
+}
