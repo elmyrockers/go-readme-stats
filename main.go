@@ -2,11 +2,13 @@ package main
 
 
 import (
-	"fmt"
+	_ "github.com/joho/godotenv/autoload"
 )
 
 
 
 func main(){
-	fmt.Println( "hello" )
+	stat := stats{}
+	langs := stat.most_used_languages( 10 )
+	dump( langs )
 }
