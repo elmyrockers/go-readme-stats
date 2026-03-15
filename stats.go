@@ -34,17 +34,20 @@ type Language struct {
 	Percentage float64
 }
 
-type stats struct {}
+type stats struct {
+	client *github.Client
+}
 
-
-
-func ( s *stats ) most_used_languages( count int ) []Language  {
+func newStats() *stats {
 	token := os.Getenv( "GITHUB_TOKEN" )
 	client := github.NewClient(nil).WithAuthToken( token )
+	return &stats{ client: client }
+}
 
+func ( s *stats ) most_used_languages( count int ) []Language  {
 	// Get list of repos
 		ctx := context.Background()
-		repos, _, err := client.Repositories.List(ctx, "", nil)
+		repos, _, err := s.client.Repositories.List(ctx, "", nil)
 		if err != nil {
 			fmt.Println( err )
 		}
@@ -57,7 +60,7 @@ func ( s *stats ) most_used_languages( count int ) []Language  {
 
 			owner := repo.GetOwner().GetLogin()
 			name := repo.GetName()
-			langData, _, _ := client.Repositories.ListLanguages(ctx, owner, name)
+			langData, _, _ := s.client.Repositories.ListLanguages(ctx, owner, name)
 			for lang, bytes := range langData {
 				languages[ lang ] += bytes
 				totalBytes += bytes
