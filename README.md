@@ -13,6 +13,26 @@ Personal Go tool using GitHub API to track my coding stats.
 
 I created this Go tool to use the GitHub API to generate stats about my coding activity — my commits, my repositories, my languages — so I can track my progress.
 
+## Purpose
+
+This repository was created for **my personal use** to generate **GitHub README statistics cards** displayed at the **front of my GitHub profile**.  
+
+- Fetches repository data via the **GitHub API**  
+- Generates **SVG stats cards** using **SVGo**  
+- Uses a **CI/CD pipeline** and optionally **Docker** for automation  
+- Can be **triggered manually**  
+- Can be **scheduled daily at 8 AM** to update the stats automatically
+
+## Technology Stack
+
+![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
+![GitHub API](https://img.shields.io/badge/GitHub%20API-181717?style=for-the-badge&logo=github&logoColor=white)
+![SVGo](https://img.shields.io/badge/SVGo-FF9900?style=for-the-badge)
+![CI/CD](https://img.shields.io/badge/CI%2FCD-AUTO?style=for-the-badge&logo=githubactions&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+
+
+## SVG Stats
 <br>
 <div align="center">
 	<img src="/elmyrockers_stat.svg" alt="Most Used Languages" align="center" />
