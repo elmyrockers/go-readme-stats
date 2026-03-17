@@ -50,6 +50,7 @@ type Language struct {
 	Bytes int
 	Percentage float64
 }
+
 func ( s *stats ) most_used_languages( count int ) []Language  {
 	repos := s.get_repos( "public", "full_name" )
 	ctx := context.Background()
@@ -83,6 +84,8 @@ func ( s *stats ) most_used_languages( count int ) []Language  {
 		})
 
 	// Get Most Used of Languages
+		total := len(sortedLanguages)
+		if count > total { count = total }
 		sortedLanguages = sortedLanguages[: count ]
 	return sortedLanguages
 }
