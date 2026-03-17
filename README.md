@@ -1,4 +1,5 @@
 # go-readme-stats
+![CI](https://github.com/elmyrockers/go-readme-stats/actions/workflows/generate.yml/badge.svg)
 
 <br>
 <div align="center">
