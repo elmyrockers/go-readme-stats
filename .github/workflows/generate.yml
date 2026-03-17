@@ -28,7 +28,7 @@ jobs:
       - name: Generate SVG stats
         run: go run .
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
 
       - name: Commit and push if changed
         run: |
