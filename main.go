@@ -21,6 +21,7 @@ func dump(data interface{}) {
 
 
 func main(){
-	langs := newStats().most_used_languages( 10 )
-	dump( langs )
+	stat := newStats()
+	langs := stat.most_used_languages( 14 )
+	stat.generate_svg( "elmyrockers_stat.svg", langs )
 }
