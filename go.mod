@@ -8,4 +8,7 @@ require (
 	github.com/joho/godotenv v1.5.1
 )
 
-require github.com/google/go-querystring v1.1.0 // indirect
+require (
+	github.com/ajstarks/svgo v0.0.0-20211024235047-1546f124cd8b // indirect
+	github.com/google/go-querystring v1.1.0 // indirect
+)
