@@ -40,6 +40,8 @@ jobs:
           git add *.svg
 
           TIMESTAMP=$(date +"%Y-%m-%d %H:%M:%S")
-          git commit -m "Auto: Update SVG stats at $TIMESTAMP" || echo "Nothing to commit"
+
+          git commit -m "Auto: Update SVG stats at $TIMESTAMP" || \
+          git commit --allow-empty -m "Auto: Daily stats run at $TIMESTAMP"
 
           git push
