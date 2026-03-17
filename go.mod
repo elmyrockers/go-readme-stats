@@ -10,5 +10,7 @@ require (
 
 require (
 	github.com/ajstarks/svgo v0.0.0-20211024235047-1546f124cd8b // indirect
+	github.com/go-enry/go-enry/v2 v2.9.5 // indirect
+	github.com/go-enry/go-oniguruma v1.2.1 // indirect
 	github.com/google/go-querystring v1.1.0 // indirect
 )
