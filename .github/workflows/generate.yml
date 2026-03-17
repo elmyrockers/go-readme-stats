@@ -38,7 +38,7 @@ jobs:
           git add *.svg
 
           if ! git diff --cached --quiet; then
-            git commit -m "auto: update stats"
+            git commit -m "Auto: Update SVG stats"
             git push
           else
             echo "No changes to commit"
