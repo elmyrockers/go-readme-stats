@@ -30,9 +30,9 @@
 </defs>
 <rect x="0" y="0" width="132" height="8" style="fill:#4F5D95; mask:url(#rect-mask)" class="lang-progress" />
 <rect x="131" y="0" width="63" height="8" style="fill:#663399; mask:url(#rect-mask)" class="lang-progress" />
-<rect x="194" y="0" width="19" height="8" style="fill:#e34c26; mask:url(#rect-mask)" class="lang-progress" />
+<rect x="193" y="0" width="19" height="8" style="fill:#e34c26; mask:url(#rect-mask)" class="lang-progress" />
 <rect x="212" y="0" width="16" height="8" style="fill:#f7523f; mask:url(#rect-mask)" class="lang-progress" />
-<rect x="228" y="0" width="7" height="8" style="fill:#00ADD8; mask:url(#rect-mask)" class="lang-progress" />
+<rect x="227" y="0" width="8" height="8" style="fill:#00ADD8; mask:url(#rect-mask)" class="lang-progress" />
 <rect x="234" y="0" width="6" height="8" style="fill:#f1e05a; mask:url(#rect-mask)" class="lang-progress" />
 <rect x="240" y="0" width="4" height="8" style="fill:#3572A5; mask:url(#rect-mask)" class="lang-progress" />
 <rect x="244" y="0" width="4" height="8" style="fill:#178600; mask:url(#rect-mask)" class="lang-progress" />
@@ -47,37 +47,37 @@
 <g transform="translate(0, 0)">
 <g class="stagger" style="animation-delay: 450ms" >
 <circle cx="5" cy="6" r="5" style="fill:#4F5D95" />
-<text x="15" y="10" class="lang-name" >PHP 52.73%</text>
+<text x="15" y="10" class="lang-name" >PHP 52.64%</text>
 </g>
 </g>
 <g transform="translate(150, 0)">
 <g class="stagger" style="animation-delay: 550ms" >
 <circle cx="5" cy="6" r="5" style="fill:#663399" />
-<text x="15" y="10" class="lang-name" >CSS 24.90%</text>
+<text x="15" y="10" class="lang-name" >CSS 24.85%</text>
 </g>
 </g>
 <g transform="translate(0, 25)">
 <g class="stagger" style="animation-delay: 650ms" >
 <circle cx="5" cy="6" r="5" style="fill:#e34c26" />
-<text x="15" y="10" class="lang-name" >HTML 7.55%</text>
+<text x="15" y="10" class="lang-name" >HTML 7.54%</text>
 </g>
 </g>
 <g transform="translate(150, 25)">
 <g class="stagger" style="animation-delay: 750ms" >
 <circle cx="5" cy="6" r="5" style="fill:#f7523f" />
-<text x="15" y="10" class="lang-name" >Blade 6.14%</text>
+<text x="15" y="10" class="lang-name" >Blade 6.13%</text>
 </g>
 </g>
 <g transform="translate(0, 50)">
 <g class="stagger" style="animation-delay: 850ms" >
 <circle cx="5" cy="6" r="5" style="fill:#00ADD8" />
-<text x="15" y="10" class="lang-name" >Go 2.65%</text>
+<text x="15" y="10" class="lang-name" >Go 2.82%</text>
 </g>
 </g>
 <g transform="translate(150, 50)">
 <g class="stagger" style="animation-delay: 950ms" >
 <circle cx="5" cy="6" r="5" style="fill:#f1e05a" />
-<text x="15" y="10" class="lang-name" >JavaScript 2.31%</text>
+<text x="15" y="10" class="lang-name" >JavaScript 2.30%</text>
 </g>
 </g>
 <g transform="translate(0, 75)">
