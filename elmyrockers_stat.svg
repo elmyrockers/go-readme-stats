@@ -28,14 +28,14 @@
 <mask id="rect-mask" x="0" y="0" width="250" height="8" ><rect x="0" y="0" width="250" height="8" style="fill:white; rx:5" />
 </mask>
 </defs>
-<rect x="0" y="0" width="132" height="8" style="fill:#4F5D95; mask:url(#rect-mask)" class="lang-progress" />
-<rect x="131" y="0" width="62" height="8" style="fill:#663399; mask:url(#rect-mask)" class="lang-progress" />
-<rect x="193" y="0" width="19" height="8" style="fill:#e34c26; mask:url(#rect-mask)" class="lang-progress" />
-<rect x="211" y="0" width="16" height="8" style="fill:#f7523f; mask:url(#rect-mask)" class="lang-progress" />
-<rect x="227" y="0" width="8" height="8" style="fill:#00ADD8; mask:url(#rect-mask)" class="lang-progress" />
-<rect x="234" y="0" width="6" height="8" style="fill:#f1e05a; mask:url(#rect-mask)" class="lang-progress" />
-<rect x="240" y="0" width="4" height="8" style="fill:#3572A5; mask:url(#rect-mask)" class="lang-progress" />
-<rect x="244" y="0" width="4" height="8" style="fill:#178600; mask:url(#rect-mask)" class="lang-progress" />
+<rect x="0" y="0" width="127" height="8" style="fill:#4F5D95; mask:url(#rect-mask)" class="lang-progress" />
+<rect x="126" y="0" width="65" height="8" style="fill:#663399; mask:url(#rect-mask)" class="lang-progress" />
+<rect x="191" y="0" width="21" height="8" style="fill:#e34c26; mask:url(#rect-mask)" class="lang-progress" />
+<rect x="211" y="0" width="15" height="8" style="fill:#f7523f; mask:url(#rect-mask)" class="lang-progress" />
+<rect x="226" y="0" width="8" height="8" style="fill:#00ADD8; mask:url(#rect-mask)" class="lang-progress" />
+<rect x="233" y="0" width="8" height="8" style="fill:#f1e05a; mask:url(#rect-mask)" class="lang-progress" />
+<rect x="241" y="0" width="4" height="8" style="fill:#3572A5; mask:url(#rect-mask)" class="lang-progress" />
+<rect x="244" y="0" width="3" height="8" style="fill:#178600; mask:url(#rect-mask)" class="lang-progress" />
 <rect x="247" y="0" width="2" height="8" style="fill:#c1d026; mask:url(#rect-mask)" class="lang-progress" />
 <rect x="248" y="0" width="1" height="8" style="fill:#f0c040; mask:url(#rect-mask)" class="lang-progress" />
 <rect x="249" y="0" width="1" height="8" style="fill:#00B4AB; mask:url(#rect-mask)" class="lang-progress" />
@@ -47,67 +47,67 @@
 <g transform="translate(0, 0)">
 <g class="stagger" style="animation-delay: 450ms" >
 <circle cx="5" cy="6" r="5" style="fill:#4F5D95" />
-<text x="15" y="10" class="lang-name" >PHP 52.45%</text>
+<text x="15" y="10" class="lang-name" >PHP 50.49%</text>
 </g>
 </g>
 <g transform="translate(150, 0)">
 <g class="stagger" style="animation-delay: 550ms" >
 <circle cx="5" cy="6" r="5" style="fill:#663399" />
-<text x="15" y="10" class="lang-name" >CSS 24.77%</text>
+<text x="15" y="10" class="lang-name" >CSS 25.96%</text>
 </g>
 </g>
 <g transform="translate(0, 25)">
 <g class="stagger" style="animation-delay: 650ms" >
 <circle cx="5" cy="6" r="5" style="fill:#e34c26" />
-<text x="15" y="10" class="lang-name" >HTML 7.51%</text>
+<text x="15" y="10" class="lang-name" >HTML 8.08%</text>
 </g>
 </g>
 <g transform="translate(150, 25)">
 <g class="stagger" style="animation-delay: 750ms" >
 <circle cx="5" cy="6" r="5" style="fill:#f7523f" />
-<text x="15" y="10" class="lang-name" >Blade 6.11%</text>
+<text x="15" y="10" class="lang-name" >Blade 5.88%</text>
 </g>
 </g>
 <g transform="translate(0, 50)">
 <g class="stagger" style="animation-delay: 850ms" >
 <circle cx="5" cy="6" r="5" style="fill:#00ADD8" />
-<text x="15" y="10" class="lang-name" >Go 3.16%</text>
+<text x="15" y="10" class="lang-name" >Go 3.04%</text>
 </g>
 </g>
 <g transform="translate(150, 50)">
 <g class="stagger" style="animation-delay: 950ms" >
 <circle cx="5" cy="6" r="5" style="fill:#f1e05a" />
-<text x="15" y="10" class="lang-name" >JavaScript 2.30%</text>
+<text x="15" y="10" class="lang-name" >JavaScript 2.99%</text>
 </g>
 </g>
 <g transform="translate(0, 75)">
 <g class="stagger" style="animation-delay: 1050ms" >
 <circle cx="5" cy="6" r="5" style="fill:#3572A5" />
-<text x="15" y="10" class="lang-name" >Python 1.41%</text>
+<text x="15" y="10" class="lang-name" >Python 1.35%</text>
 </g>
 </g>
 <g transform="translate(150, 75)">
 <g class="stagger" style="animation-delay: 1150ms" >
 <circle cx="5" cy="6" r="5" style="fill:#178600" />
-<text x="15" y="10" class="lang-name" >C# 1.21%</text>
+<text x="15" y="10" class="lang-name" >C# 1.16%</text>
 </g>
 </g>
 <g transform="translate(0, 100)">
 <g class="stagger" style="animation-delay: 1250ms" >
 <circle cx="5" cy="6" r="5" style="fill:#c1d026" />
-<text x="15" y="10" class="lang-name" >Twig 0.58%</text>
+<text x="15" y="10" class="lang-name" >Twig 0.56%</text>
 </g>
 </g>
 <g transform="translate(150, 100)">
 <g class="stagger" style="animation-delay: 1350ms" >
 <circle cx="5" cy="6" r="5" style="fill:#f0c040" />
-<text x="15" y="10" class="lang-name" >Smarty 0.23%</text>
+<text x="15" y="10" class="lang-name" >Smarty 0.22%</text>
 </g>
 </g>
 <g transform="translate(0, 125)">
 <g class="stagger" style="animation-delay: 1450ms" >
 <circle cx="5" cy="6" r="5" style="fill:#00B4AB" />
-<text x="15" y="10" class="lang-name" >Dart 0.16%</text>
+<text x="15" y="10" class="lang-name" >Dart 0.15%</text>
 </g>
 </g>
 <g transform="translate(150, 125)">
