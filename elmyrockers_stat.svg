@@ -47,7 +47,7 @@
 <g transform="translate(0, 0)">
 <g class="stagger" style="animation-delay: 450ms" >
 <circle cx="5" cy="6" r="5" style="fill:#4F5D95" />
-<text x="15" y="10" class="lang-name" >PHP 50.44%</text>
+<text x="15" y="10" class="lang-name" >PHP 50.43%</text>
 </g>
 </g>
 <g transform="translate(150, 0)">
@@ -59,7 +59,7 @@
 <g transform="translate(0, 25)">
 <g class="stagger" style="animation-delay: 650ms" >
 <circle cx="5" cy="6" r="5" style="fill:#e34c26" />
-<text x="15" y="10" class="lang-name" >HTML 8.17%</text>
+<text x="15" y="10" class="lang-name" >HTML 8.18%</text>
 </g>
 </g>
 <g transform="translate(150, 25)">
