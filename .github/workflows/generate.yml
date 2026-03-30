@@ -41,7 +41,7 @@ jobs:
 
           TIMESTAMP=$(date +"%Y-%m-%d %H:%M:%S")
 
-          git commit -m "Auto: Update SVG stats at $TIMESTAMP" || \
-          git commit --allow-empty -m "Auto: Daily stats run at $TIMESTAMP"
+          git commit -m "Auto: Update SVG stats at $TIMESTAMP (UTC)" || \
+          git commit --allow-empty -m "Auto: Daily stats run at $TIMESTAMP (UTC)"
 
           git push
