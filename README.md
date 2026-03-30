@@ -23,7 +23,7 @@ This repository was created for **my personal use** to generate **GitHub README 
 - Optionally uses **Docker** for automation  
 - Can also be **triggered manually**  
 - Can be **scheduled daily at 00:00(UTC) or 8:00AM (Malaysia Time)** to update the stats automatically.
-	<br>**Note:** GitHub typically delays these runs, actual execution usually occurs **around 01:00 UTC (9:00 AM Malaysia Time)**.
+	<br>**Note:** GitHub typically delays these runs, actual execution usually occurs **around 01:00 (UTC) or 9:00 AM (Malaysia Time)**.
 - **You can see the stats are updated by GitHub Actions[bot]**
 
 ## Technology Stack
