@@ -17,13 +17,13 @@ I created this Go tool to use the GitHub API to generate stats about my coding a
 
 This repository was created for **my personal use** to generate **GitHub README statistics cards** displayed at the **front of my GitHub profile**.  
 
-- Fetches repository data via the **GitHub API**  
+- Fetches repository data via the **GitHub API**
 - Generates **SVG stats cards** using **SVGo**  
 - Uses a **CI/CD pipeline** with **GitHub Actions[bot]** to update automatically  
 - Optionally uses **Docker** for automation  
 - Can also be **triggered manually**  
-- Can be **scheduled daily at 00  (UTC) or 8 AM (Malaysia Time)** to update the stats automatically.
-	<br>**Note:** GitHub typically delays these runs, actual execution usually occurs **around 01  UTC (9  AM Malaysia Time)**.
+- Can be **scheduled daily at 00:00(UTC) or 8:00AM (Malaysia Time)** to update the stats automatically.
+	<br>**Note:** GitHub typically delays these runs, actual execution usually occurs **around 01:00 UTC (9:00 AM Malaysia Time)**.
 - **You can see the stats are updated by GitHub Actions[bot]**
 
 ## Technology Stack
