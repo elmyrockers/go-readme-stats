@@ -31,9 +31,9 @@ This repository was created for **my personal use** to generate **GitHub README 
 ![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
 ![GitHub API](https://img.shields.io/badge/GitHub%20API-181717?style=for-the-badge&logo=github&logoColor=white)
 ![SVGo](https://img.shields.io/badge/SVGo-FF9900?style=for-the-badge)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
 ![CI/CD](https://img.shields.io/badge/CI%2FCD-AUTO?style=for-the-badge&logo=githubactions&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-
 
 ## SVG Stats
 <br>
