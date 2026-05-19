@@ -34,7 +34,7 @@
 <rect x="206" y="0" width="15" height="8" style="fill:#f7523f; mask:url(#rect-mask)" class="lang-progress" />
 <rect x="220" y="0" width="13" height="8" style="fill:#00ADD8; mask:url(#rect-mask)" class="lang-progress" />
 <rect x="233" y="0" width="8" height="8" style="fill:#f1e05a; mask:url(#rect-mask)" class="lang-progress" />
-<rect x="241" y="0" width="4" height="8" style="fill:#3572A5; mask:url(#rect-mask)" class="lang-progress" />
+<rect x="240" y="0" width="4" height="8" style="fill:#3572A5; mask:url(#rect-mask)" class="lang-progress" />
 <rect x="244" y="0" width="3" height="8" style="fill:#178600; mask:url(#rect-mask)" class="lang-progress" />
 <rect x="247" y="0" width="2" height="8" style="fill:#c1d026; mask:url(#rect-mask)" class="lang-progress" />
 <rect x="248" y="0" width="1" height="8" style="fill:#f0c040; mask:url(#rect-mask)" class="lang-progress" />
@@ -47,13 +47,13 @@
 <g transform="translate(0, 0)">
 <g class="stagger" style="animation-delay: 450ms" >
 <circle cx="5" cy="6" r="5" style="fill:#4F5D95" />
-<text x="15" y="10" class="lang-name" >PHP 49.39%</text>
+<text x="15" y="10" class="lang-name" >PHP 49.38%</text>
 </g>
 </g>
 <g transform="translate(150, 0)">
 <g class="stagger" style="animation-delay: 550ms" >
 <circle cx="5" cy="6" r="5" style="fill:#663399" />
-<text x="15" y="10" class="lang-name" >CSS 25.28%</text>
+<text x="15" y="10" class="lang-name" >CSS 25.27%</text>
 </g>
 </g>
 <g transform="translate(0, 25)">
