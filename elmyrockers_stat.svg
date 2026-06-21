@@ -47,31 +47,31 @@
 <g transform="translate(0, 0)">
 <g class="stagger" style="animation-delay: 450ms" >
 <circle cx="5" cy="6" r="5" style="fill:#4F5D95" />
-<text x="15" y="10" class="lang-name" >PHP 46.27%</text>
+<text x="15" y="10" class="lang-name" >PHP 46.24%</text>
 </g>
 </g>
 <g transform="translate(150, 0)">
 <g class="stagger" style="animation-delay: 550ms" >
 <circle cx="5" cy="6" r="5" style="fill:#663399" />
-<text x="15" y="10" class="lang-name" >CSS 23.68%</text>
+<text x="15" y="10" class="lang-name" >CSS 23.67%</text>
 </g>
 </g>
 <g transform="translate(0, 25)">
 <g class="stagger" style="animation-delay: 650ms" >
 <circle cx="5" cy="6" r="5" style="fill:#e34c26" />
-<text x="15" y="10" class="lang-name" >HTML 7.87%</text>
+<text x="15" y="10" class="lang-name" >HTML 7.89%</text>
 </g>
 </g>
 <g transform="translate(150, 25)">
 <g class="stagger" style="animation-delay: 750ms" >
 <circle cx="5" cy="6" r="5" style="fill:#f7523f" />
-<text x="15" y="10" class="lang-name" >Blade 5.37%</text>
+<text x="15" y="10" class="lang-name" >Blade 5.36%</text>
 </g>
 </g>
 <g transform="translate(0, 50)">
 <g class="stagger" style="animation-delay: 850ms" >
 <circle cx="5" cy="6" r="5" style="fill:#00ADD8" />
-<text x="15" y="10" class="lang-name" >Go 4.87%</text>
+<text x="15" y="10" class="lang-name" >Go 4.89%</text>
 </g>
 </g>
 <g transform="translate(150, 50)">
@@ -83,7 +83,7 @@
 <g transform="translate(0, 75)">
 <g class="stagger" style="animation-delay: 1050ms" >
 <circle cx="5" cy="6" r="5" style="fill:#f1e05a" />
-<text x="15" y="10" class="lang-name" >JavaScript 2.73%</text>
+<text x="15" y="10" class="lang-name" >JavaScript 2.72%</text>
 </g>
 </g>
 <g transform="translate(150, 75)">
@@ -95,7 +95,7 @@
 <g transform="translate(0, 100)">
 <g class="stagger" style="animation-delay: 1250ms" >
 <circle cx="5" cy="6" r="5" style="fill:#3572A5" />
-<text x="15" y="10" class="lang-name" >Python 1.24%</text>
+<text x="15" y="10" class="lang-name" >Python 1.23%</text>
 </g>
 </g>
 <g transform="translate(150, 100)">
