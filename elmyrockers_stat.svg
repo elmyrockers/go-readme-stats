@@ -47,25 +47,25 @@
 <g transform="translate(0, 0)">
 <g class="stagger" style="animation-delay: 450ms" >
 <circle cx="5" cy="6" r="5" style="fill:#4F5D95" />
-<text x="15" y="10" class="lang-name" >PHP 45.98%</text>
+<text x="15" y="10" class="lang-name" >PHP 46.00%</text>
 </g>
 </g>
 <g transform="translate(150, 0)">
 <g class="stagger" style="animation-delay: 550ms" >
 <circle cx="5" cy="6" r="5" style="fill:#663399" />
-<text x="15" y="10" class="lang-name" >CSS 23.53%</text>
+<text x="15" y="10" class="lang-name" >CSS 23.54%</text>
 </g>
 </g>
 <g transform="translate(0, 25)">
 <g class="stagger" style="animation-delay: 650ms" >
 <circle cx="5" cy="6" r="5" style="fill:#e34c26" />
-<text x="15" y="10" class="lang-name" >HTML 8.09%</text>
+<text x="15" y="10" class="lang-name" >HTML 8.10%</text>
 </g>
 </g>
 <g transform="translate(150, 25)">
 <g class="stagger" style="animation-delay: 750ms" >
 <circle cx="5" cy="6" r="5" style="fill:#f7523f" />
-<text x="15" y="10" class="lang-name" >Blade 5.33%</text>
+<text x="15" y="10" class="lang-name" >Blade 5.34%</text>
 </g>
 </g>
 <g transform="translate(0, 50)">
@@ -89,7 +89,7 @@
 <g transform="translate(150, 75)">
 <g class="stagger" style="animation-delay: 1150ms" >
 <circle cx="5" cy="6" r="5" style="fill:#f34b7d" />
-<text x="15" y="10" class="lang-name" >C++ 2.00%</text>
+<text x="15" y="10" class="lang-name" >C++ 1.96%</text>
 </g>
 </g>
 <g transform="translate(0, 100)">
