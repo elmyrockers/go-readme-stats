@@ -39,7 +39,7 @@
 <rect x="240" y="0" width="4" height="8" style="fill:#3572A5; mask:url(#rect-mask)" class="lang-progress" />
 <rect x="243" y="0" width="3" height="8" style="fill:#178600; mask:url(#rect-mask)" class="lang-progress" />
 <rect x="246" y="0" width="2" height="8" style="fill:#c1d026; mask:url(#rect-mask)" class="lang-progress" />
-<rect x="247" y="0" width="1" height="8" style="fill:#C1F12E; mask:url(#rect-mask)" class="lang-progress" />
+<rect x="247" y="0" width="2" height="8" style="fill:#C1F12E; mask:url(#rect-mask)" class="lang-progress" />
 <rect x="248" y="0" width="1" height="8" style="fill:#f0c040; mask:url(#rect-mask)" class="lang-progress" />
 <rect x="248" y="0" width="1" height="8" style="fill:#DA3434; mask:url(#rect-mask)" class="lang-progress" />
 </g>
@@ -47,13 +47,13 @@
 <g transform="translate(0, 0)">
 <g class="stagger" style="animation-delay: 450ms" >
 <circle cx="5" cy="6" r="5" style="fill:#4F5D95" />
-<text x="15" y="10" class="lang-name" >PHP 45.59%</text>
+<text x="15" y="10" class="lang-name" >PHP 45.57%</text>
 </g>
 </g>
 <g transform="translate(150, 0)">
 <g class="stagger" style="animation-delay: 550ms" >
 <circle cx="5" cy="6" r="5" style="fill:#663399" />
-<text x="15" y="10" class="lang-name" >CSS 23.33%</text>
+<text x="15" y="10" class="lang-name" >CSS 23.32%</text>
 </g>
 </g>
 <g transform="translate(0, 25)">
@@ -83,7 +83,7 @@
 <g transform="translate(0, 75)">
 <g class="stagger" style="animation-delay: 1050ms" >
 <circle cx="5" cy="6" r="5" style="fill:#f1e05a" />
-<text x="15" y="10" class="lang-name" >JavaScript 2.98%</text>
+<text x="15" y="10" class="lang-name" >JavaScript 2.97%</text>
 </g>
 </g>
 <g transform="translate(150, 75)">
@@ -113,7 +113,7 @@
 <g transform="translate(150, 125)">
 <g class="stagger" style="animation-delay: 1550ms" >
 <circle cx="5" cy="6" r="5" style="fill:#C1F12E" />
-<text x="15" y="10" class="lang-name" >Batchfile 0.37%</text>
+<text x="15" y="10" class="lang-name" >Batchfile 0.40%</text>
 </g>
 </g>
 <g transform="translate(0, 150)">
