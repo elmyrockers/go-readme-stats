@@ -5,7 +5,7 @@
 
 <br>
 <div align="center">
-	<img src="/coding-passion.webp" alt="Coding Passion" align="center" />
+	<img src="coding-passion.webp" alt="Coding Passion" align="center" />
 </div>
 <br><br>
 
