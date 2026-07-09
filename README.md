@@ -38,5 +38,5 @@ This repository was created for **my personal use** to generate **GitHub README 
 ## SVG Stats
 <br>
 <div align="center">
-	<img src="/elmyrockers_stat.svg" alt="Most Used Languages" align="center" />
+	<img src="elmyrockers_stat.svg" alt="Most Used Languages" align="center" />
 </div>
