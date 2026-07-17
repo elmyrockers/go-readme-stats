@@ -59,7 +59,7 @@
 <g transform="translate(0, 25)">
 <g class="stagger" style="animation-delay: 650ms" >
 <circle cx="5" cy="6" r="5" style="fill:#e34c26" />
-<text x="15" y="10" class="lang-name" >HTML 7.60%</text>
+<text x="15" y="10" class="lang-name" >HTML 7.59%</text>
 </g>
 </g>
 <g transform="translate(150, 25)">
@@ -77,7 +77,7 @@
 <g transform="translate(150, 50)">
 <g class="stagger" style="animation-delay: 950ms" >
 <circle cx="5" cy="6" r="5" style="fill:#dea584" />
-<text x="15" y="10" class="lang-name" >Rust 3.90%</text>
+<text x="15" y="10" class="lang-name" >Rust 3.91%</text>
 </g>
 </g>
 <g transform="translate(0, 75)">
