@@ -29,7 +29,7 @@
 </mask>
 </defs>
 <rect x="0" y="0" width="112" height="8" style="fill:#4F5D95; mask:url(#rect-mask)" class="lang-progress" />
-<rect x="111" y="0" width="58" height="8" style="fill:#663399; mask:url(#rect-mask)" class="lang-progress" />
+<rect x="111" y="0" width="57" height="8" style="fill:#663399; mask:url(#rect-mask)" class="lang-progress" />
 <rect x="168" y="0" width="19" height="8" style="fill:#e34c26; mask:url(#rect-mask)" class="lang-progress" />
 <rect x="187" y="0" width="17" height="8" style="fill:#00ADD8; mask:url(#rect-mask)" class="lang-progress" />
 <rect x="203" y="0" width="13" height="8" style="fill:#f7523f; mask:url(#rect-mask)" class="lang-progress" />
@@ -47,25 +47,25 @@
 <g transform="translate(0, 0)">
 <g class="stagger" style="animation-delay: 450ms" >
 <circle cx="5" cy="6" r="5" style="fill:#4F5D95" />
-<text x="15" y="10" class="lang-name" >PHP 44.60%</text>
+<text x="15" y="10" class="lang-name" >PHP 44.54%</text>
 </g>
 </g>
 <g transform="translate(150, 0)">
 <g class="stagger" style="animation-delay: 550ms" >
 <circle cx="5" cy="6" r="5" style="fill:#663399" />
-<text x="15" y="10" class="lang-name" >CSS 22.83%</text>
+<text x="15" y="10" class="lang-name" >CSS 22.80%</text>
 </g>
 </g>
 <g transform="translate(0, 25)">
 <g class="stagger" style="animation-delay: 650ms" >
 <circle cx="5" cy="6" r="5" style="fill:#e34c26" />
-<text x="15" y="10" class="lang-name" >HTML 7.59%</text>
+<text x="15" y="10" class="lang-name" >HTML 7.58%</text>
 </g>
 </g>
 <g transform="translate(150, 25)">
 <g class="stagger" style="animation-delay: 750ms" >
 <circle cx="5" cy="6" r="5" style="fill:#00ADD8" />
-<text x="15" y="10" class="lang-name" >Go 6.56%</text>
+<text x="15" y="10" class="lang-name" >Go 6.67%</text>
 </g>
 </g>
 <g transform="translate(0, 50)">
